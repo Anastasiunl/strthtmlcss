@@ -1,0 +1,45 @@
+<html>
+    <head>
+     <style>
+     .container{
+         height: 100vh;
+         
+         }
+     .container_block{
+         height: 200px;
+         width: 600px;
+         margin-top: 30px;
+        
+     }
+     .block-orange{
+        background: #ff7a00;
+     }
+     .block-blue{
+        background: #731fc8;
+     }
+     .block-red{
+        background: #e01c1c;
+        width: 100%;
+     }
+     .block-green{
+         background: #42ce0b;
+         width: 100%;
+     }
+     .container-inherit {
+         display: flex;
+         justify-content: space-between;
+         gap: 70px;
+     }
+     </style>
+    </head>
+    <body>
+         <div class="container">
+             <div class=" container-inherit">
+                 <div class="container_block block-orange "></div>
+                 <div class="container_block block-blue"></div>
+             </div>
+             <div class="container_block block-red"></div>
+             <div class="container_block block-green"></div>
+        </div>
+    </body>
+</html>
